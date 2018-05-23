@@ -1,0 +1,358 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 596
+  ClientWidth = 732
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 24
+    Top = 40
+    Width = 79
+    Height = 20
+    Caption = 'Nome Cliente:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Top = 93
+    Width = 67
+    Height = 20
+    Caption = 'Logradouro:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 312
+    Top = 93
+    Width = 53
+    Height = 20
+    Caption = 'Telefone:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 424
+    Top = 93
+    Width = 88
+    Height = 20
+    Caption = 'Local Trabalho:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 24
+    Top = 174
+    Width = 130
+    Height = 20
+    Caption = 'Informa'#231#245'es do Servi'#231'o'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 24
+    Top = 200
+    Width = 77
+    Height = 20
+    Caption = 'Equipamento:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 24
+    Top = 8
+    Width = 104
+    Height = 20
+    Caption = 'Numero de ordem:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 23
+    Top = 312
+    Width = 125
+    Height = 20
+    Caption = 'Problema Reclamado:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 24
+    Top = 381
+    Width = 124
+    Height = 20
+    Caption = 'Forma de Pagamento:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 176
+    Top = 381
+    Width = 120
+    Height = 20
+    Caption = 'Quantidade Parcelas:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 312
+    Top = 381
+    Width = 83
+    Height = 20
+    Caption = 'Valor Parcelas:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label12: TLabel
+    Left = 446
+    Top = 381
+    Width = 63
+    Height = 20
+    Caption = 'Valor Total:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label13: TLabel
+    Left = 235
+    Top = 8
+    Width = 61
+    Height = 20
+    Caption = 'Atendente::'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label14: TLabel
+    Left = 24
+    Top = 471
+    Width = 73
+    Height = 20
+    Caption = 'Observa'#231#227'o::'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label15: TLabel
+    Left = 28
+    Top = 259
+    Width = 75
+    Height = 20
+    Caption = 'Data Entrada:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label16: TLabel
+    Left = 134
+    Top = 259
+    Width = 64
+    Height = 20
+    Caption = 'Data Sa'#237'da:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label17: TLabel
+    Left = 244
+    Top = 259
+    Width = 52
+    Height = 20
+    Caption = 'Situa'#231#227'o:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 134
+    Top = 8
+    Width = 75
+    Height = 21
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 24
+    Top = 66
+    Width = 401
+    Height = 21
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 24
+    Top = 119
+    Width = 265
+    Height = 21
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 312
+    Top = 119
+    Width = 97
+    Height = 21
+    TabOrder = 3
+  end
+  object Edit5: TEdit
+    Left = 424
+    Top = 119
+    Width = 193
+    Height = 21
+    TabOrder = 4
+  end
+  object RadioButton1: TRadioButton
+    Left = 24
+    Top = 416
+    Width = 49
+    Height = 17
+    Caption = #192' Vista'
+    TabOrder = 5
+  end
+  object RadioButton2: TRadioButton
+    Left = 24
+    Top = 448
+    Width = 57
+    Height = 17
+    Caption = #192' Prazo'
+    TabOrder = 6
+  end
+  object Edit6: TEdit
+    Left = 176
+    Top = 407
+    Width = 120
+    Height = 21
+    TabOrder = 7
+  end
+  object Edit7: TEdit
+    Left = 312
+    Top = 407
+    Width = 120
+    Height = 21
+    TabOrder = 8
+  end
+  object Edit8: TEdit
+    Left = 446
+    Top = 407
+    Width = 120
+    Height = 21
+    TabOrder = 9
+  end
+  object TMemo
+    Left = 24
+    Top = 497
+    Width = 593
+    Height = 56
+    TabOrder = 10
+  end
+  object Edit9: TEdit
+    Left = 24
+    Top = 285
+    Width = 97
+    Height = 21
+    TabOrder = 11
+  end
+  object Edit10: TEdit
+    Left = 134
+    Top = 285
+    Width = 97
+    Height = 21
+    TabOrder = 12
+  end
+  object Edit11: TEdit
+    Left = 24
+    Top = 338
+    Width = 593
+    Height = 21
+    TabOrder = 13
+  end
+  object ComboBox3: TComboBox
+    Left = 237
+    Top = 285
+    Width = 172
+    Height = 21
+    TabOrder = 14
+  end
+  object Edit12: TEdit
+    Left = 28
+    Top = 232
+    Width = 589
+    Height = 21
+    TabOrder = 15
+  end
+  object Edit13: TEdit
+    Left = 302
+    Top = 8
+    Width = 123
+    Height = 21
+    TabOrder = 16
+  end
+end

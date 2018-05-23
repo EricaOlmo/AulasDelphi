@@ -1,0 +1,144 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 422
+  ClientWidth = 663
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Button1: TButton
+    Left = 8
+    Top = 24
+    Width = 75
+    Height = 25
+    Caption = 'Calcular'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object edt_1: TEdit
+    Left = 89
+    Top = 26
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object ListBox1: TListBox
+    Left = 89
+    Top = 53
+    Width = 121
+    Height = 145
+    ItemHeight = 13
+    TabOrder = 2
+    OnClick = ListBox1Click
+    OnExit = ListBox1Click
+  end
+  object ListBox2: TListBox
+    Left = 232
+    Top = 55
+    Width = 121
+    Height = 145
+    ItemHeight = 13
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 295
+    Top = 24
+    Width = 50
+    Height = 25
+    Caption = 'Impar'
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 232
+    Top = 24
+    Width = 57
+    Height = 25
+    Caption = 'Par'
+    TabOrder = 5
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 8
+    Top = 224
+    Width = 75
+    Height = 25
+    Caption = 'Calcular'
+    TabOrder = 6
+    OnClick = Button4Click
+  end
+  object Edit1: TEdit
+    Left = 97
+    Top = 226
+    Width = 558
+    Height = 21
+    TabOrder = 7
+  end
+  object ckverifica: TCheckBox
+    Left = 473
+    Top = 28
+    Width = 97
+    Height = 17
+    Caption = 'Verifica'
+    TabOrder = 8
+    OnClick = ckverificaClick
+  end
+  object RadioButton1: TRadioButton
+    Left = 232
+    Top = 336
+    Width = 113
+    Height = 17
+    Caption = 'RadioButton1'
+    TabOrder = 9
+  end
+  object btn_marcar: TButton
+    Left = 384
+    Top = 24
+    Width = 75
+    Height = 25
+    Caption = 'Marcar'
+    TabOrder = 10
+    OnClick = btn_marcarClick
+  end
+  object Edit2: TEdit
+    Left = 473
+    Top = 51
+    Width = 121
+    Height = 21
+    TabOrder = 11
+  end
+  object ckfonte: TCheckBox
+    Left = 400
+    Top = 104
+    Width = 97
+    Height = 17
+    Caption = 'Fonte'
+    TabOrder = 12
+    OnClick = ckfonteClick
+  end
+  object ckfundo: TCheckBox
+    Left = 520
+    Top = 104
+    Width = 97
+    Height = 17
+    Caption = 'Fundo'
+    TabOrder = 13
+    OnClick = ckfundoClick
+  end
+  object cktamanho: TCheckBox
+    Left = 400
+    Top = 152
+    Width = 97
+    Height = 17
+    Caption = 'Tamanho'
+    TabOrder = 14
+    OnClick = cktamanhoClick
+  end
+end

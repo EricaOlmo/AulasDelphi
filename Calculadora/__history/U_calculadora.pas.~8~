@@ -1,0 +1,78 @@
+unit U_calculadora;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TFormCalculadora = class(TForm)
+    Edt_Resultado: TEdit;
+    btn_7: TButton;
+    btn_8: TButton;
+    btn_9: TButton;
+    btn_somar: TButton;
+    btn_4: TButton;
+    btn_5: TButton;
+    btn_6: TButton;
+    btn_subtrair: TButton;
+    btn_3: TButton;
+    btn_1: TButton;
+    btn_2: TButton;
+    btn_Multiplicar: TButton;
+    btn_igual: TButton;
+    btn_Limpar: TButton;
+    btn_0: TButton;
+    btn_dividir: TButton;
+    Label1: TLabel;
+    procedure btn_somarClick(Sender: TObject);
+    procedure btn_subtrairClick(Sender: TObject);
+    procedure btn_MultiplicarClick(Sender: TObject);
+    procedure btn_dividirClick(Sender: TObject);
+    procedure NumeroClick(Sender: TObject);
+  private
+    { Private declarations }
+
+    Foperacao : string;
+    Ftotal : Double; //guardar  valor total da opreção (numero com virgula)
+    FUltimoNumero : Double;
+
+  public
+    { Public declarations }
+  end;
+
+var
+  FormCalculadora: TFormCalculadora;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFormCalculadora.NumeroClick(Sender: TObject);
+begin
+  Edt_Resultado.Text := edt_Resultado.Text + TButton(Sender).Caption;
+  FUltimoNumero := StrToFloat (Edt_Resultado.Text);
+end;
+
+procedure TFormCalculadora.btn_dividirClick(Sender: TObject);
+begin
+  Foperacao := '/';
+end;
+
+procedure TFormCalculadora.btn_MultiplicarClick(Sender: TObject);
+begin
+  Foperacao := '*';
+end;
+
+procedure TFormCalculadora.btn_somarClick(Sender: TObject);
+begin
+  Foperacao := '+'; //Alimentar a variavel Operação com o valor +
+end;
+
+procedure TFormCalculadora.btn_subtrairClick(Sender: TObject);
+begin
+  Foperacao := '-';
+end;
+
+end.

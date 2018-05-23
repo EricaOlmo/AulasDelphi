@@ -1,0 +1,105 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 363
+  ClientWidth = 434
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 24
+    Top = 16
+    Width = 357
+    Height = 49
+    Caption = 'Mercearia do Z'#233
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -37
+    Font.Name = 'Stencil Std'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 36
+    Top = 112
+    Width = 154
+    Height = 23
+    Caption = 'Estoque Minimo'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 36
+    Top = 163
+    Width = 158
+    Height = 23
+    Caption = 'Estoque M'#225'ximo'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 36
+    Top = 208
+    Width = 133
+    Height = 23
+    Caption = 'Estoque Atual'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Edt_minimo: TEdit
+    Left = 208
+    Top = 117
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object edt_maximo: TEdit
+    Left = 208
+    Top = 168
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object edt_atual: TEdit
+    Left = 208
+    Top = 213
+    Width = 121
+    Height = 21
+    TabOrder = 2
+  end
+  object btn_enviar: TButton
+    Left = 140
+    Top = 272
+    Width = 110
+    Height = 25
+    Caption = 'Enviar'
+    TabOrder = 3
+    OnClick = btn_enviarClick
+  end
+  object edt_media: TEdit
+    Left = 296
+    Top = 264
+    Width = 121
+    Height = 21
+    TabOrder = 4
+  end
+end

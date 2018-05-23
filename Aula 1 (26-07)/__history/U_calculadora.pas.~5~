@@ -1,0 +1,32 @@
+unit U_calculadora;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm_calc = class(TForm)
+    EditN1: TEdit;
+    EditN2: TEdit;
+    Edit3: TEdit;
+    btn_soma: TButton;
+    btn_menos: TButton;
+    btn_vezes: TButton;
+    btn_dividir: TButton;
+    btnLimpar: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form_calc: TForm_calc;
+
+implementation
+
+{$R *.dfm}
+
+end.

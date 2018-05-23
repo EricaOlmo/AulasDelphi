@@ -1,0 +1,107 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 360
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ToolBar1: TToolBar
+    Size.Width = 360.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Label1: TLabel
+      StyledSettings = [FontColor]
+      Position.X = 112.000000000000000000
+      Position.Y = 8.000000000000000000
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Center
+      Text = 'Nome e Idade'
+    end
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 32.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 297.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 32.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 297.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit3: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 32.000000000000000000
+    Position.Y = 240.000000000000000000
+    Size.Width = 297.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Button1: TButton
+    StyledSettings = [FontColor]
+    Position.X = 120.000000000000000000
+    Position.Y = 296.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'Enviar'
+    TextSettings.Font.Family = 'Arial'
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button1Click
+  end
+  object Label2: TLabel
+    StyledSettings = [FontColor]
+    Position.X = 96.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 185.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Arial'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'Primeiro Nome'
+  end
+  object Label3: TLabel
+    StyledSettings = [FontColor]
+    Position.X = 96.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 185.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Arial'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'Segundo Nome'
+  end
+  object Label4: TLabel
+    StyledSettings = [FontColor]
+    Position.X = 96.000000000000000000
+    Position.Y = 216.000000000000000000
+    Size.Width = 185.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Arial'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'Idade'
+  end
+end
